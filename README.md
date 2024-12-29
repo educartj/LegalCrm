@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+# Legal CRM Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, intuitive CRM system for lawyers to manage cases, documents, and client relationships with a clean, professional interface focused on efficiency and organization.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📊 **Dashboard Overview**
+  - Case statistics and metrics
+  - Recent activities feed
+  - Upcoming deadlines calendar
+  - Quick-access cards
 
-## Expanding the ESLint configuration
+- 📁 **Case Management**
+  - Complete CRUD operations
+  - Status tracking
+  - Advanced filtering
+  - Document attachments
+  - Timeline view
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 👥 **Client Management**
+  - Detailed client profiles
+  - Case history
+  - Client-case associations
 
-- Configure the top-level `parserOptions` property like this:
+- 📄 **Document Management**
+  - PDF and image uploads
+  - Document preview
+  - Organized by case
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Tech Stack
+
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Shadcn/ui Components
+- React Router
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Project Structure
+
+```
+src/
+  ├── components/
+  │   ├── dashboard/    # Dashboard components
+  │   └── ui/          # Shadcn UI components
+  ├── lib/             # Utilities and helpers
+  └── types/           # TypeScript types
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+MIT
